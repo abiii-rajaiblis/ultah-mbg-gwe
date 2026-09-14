@@ -17,7 +17,7 @@
 
   <header class="topbar">
     <div class="brand">pink<span>blossom</span> ♡</div>
-    <button class="music-btn" id="musicBtn" aria-label="Nyalakan musik">♫ <span>music</span></button>
+    <div class="music-control"><button class="music-btn" id="musicBtn" aria-label="Nyalakan atau matikan musik">♫ <span id="musicLabel">music</span></button><div class="volume-panel"><span>🔈</span><input id="volumeSlider" type="range" min="0" max="100" value="65" aria-label="Atur volume musik"><span id="volumeValue">65%</span></div></div>
   </header>
 
   <main>
@@ -90,39 +90,9 @@
       </div>
     </section>
 
-    <section class="us section">
-      <div class="section-heading reveal">
-        <span>03</span>
-        <h2>Only <em>you</em></h2>
-        <p>One little playlist of wishes for your new chapter.</p>
-      </div>
-      <div class="vinyl-wrap reveal">
-        <div class="vinyl">
-          <div class="vinyl-label">DESI<br><small>24</small></div>
-        </div>
-        <div class="wish-list">
-          <div><span>01</span> more laughter</div>
-          <div><span>02</span> brave new beginnings</div>
-          <div><span>03</span> peaceful days</div>
-          <div><span>04</span> dreams coming true</div>
-        </div>
-      </div>
-    </section>
+    <section class="us section"><div class="section-heading reveal"><span>03</span><h2>Only <em>you</em></h2><p>Put your favorite memories on the record ♡ — swipe the frames or use the arrows.</p></div><div class="record-stage reveal"><div class="record-corner"><div class="vinyl spinning-idle" id="vinyl"><div class="vinyl-grooves"></div><div class="vinyl-label">DESI<br><small>24</small></div></div><span class="record-caption">your little record ♡</span></div><div class="record-photos"><button class="photo-arrow prev" id="prevPhoto" aria-label="Foto sebelumnya">‹</button><div class="photo-frame"><div class="photo-stack" id="photoStack"><div class="record-photo active"><div class="photo-placeholder">PHOTO 01<br><span>♡</span></div></div><div class="record-photo"><div class="photo-placeholder">PHOTO 02<br><span>୨୧</span></div></div><div class="record-photo"><div class="photo-placeholder">PHOTO 03<br><span>✿</span></div></div><div class="record-photo"><div class="photo-placeholder">PHOTO 04<br><span>♡</span></div></div><div class="record-photo"><div class="photo-placeholder">PHOTO 05<br><span>🎀</span></div></div></div><p class="record-photo-caption" id="photoCaption">a sweet little memory · 01 / 05</p></div><button class="photo-arrow next" id="nextPhoto" aria-label="Foto berikutnya">›</button><div class="photo-dots" id="photoDots"><button class="dot active" data-index="0"></button><button class="dot" data-index="1"></button><button class="dot" data-index="2"></button><button class="dot" data-index="3"></button><button class="dot" data-index="4"></button></div></div></div></section>
 
-    <section class="gallery section">
-      <div class="section-heading reveal">
-        <span>04</span>
-        <h2>Our <em>moments</em></h2>
-        <p>Ganti kotak-kotak ini dengan foto favoritmu.</p>
-      </div>
-      <div class="gallery-grid">
-        <div class="gallery-item tall placeholder-photo reveal">PHOTO 01<br><small>♡</small></div>
-        <div class="gallery-item placeholder-photo reveal">PHOTO 02<br><small>୨୧</small></div>
-        <div class="gallery-item placeholder-photo reveal">PHOTO 03<br><small>✿</small></div>
-        <div class="gallery-item wide placeholder-photo reveal">PHOTO 04<br><small>♡</small></div>
-        <div class="gallery-item placeholder-photo reveal">PHOTO 05<br><small>🎀</small></div>
-      </div>
-    </section>
+    <section class="gallery section"><div class="section-heading reveal"><span>04</span><h2>Our <em>moments</em></h2><p>Six little frames for six memories worth keeping close.</p></div><div class="gallery-grid six-frames"><div class="gallery-item placeholder-photo reveal">PHOTO 01<br><small>♡</small></div><div class="gallery-item placeholder-photo reveal">PHOTO 02<br><small>୨୧</small></div><div class="gallery-item placeholder-photo reveal">PHOTO 03<br><small>✿</small></div><div class="gallery-item placeholder-photo reveal">PHOTO 04<br><small>♡</small></div><div class="gallery-item placeholder-photo reveal">PHOTO 05<br><small>🎀</small></div><div class="gallery-item placeholder-photo reveal">PHOTO 06<br><small>♡</small></div></div></section>
 
     <section class="final section">
       <div class="wax">♥</div>
